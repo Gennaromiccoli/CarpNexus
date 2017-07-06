@@ -38,7 +38,7 @@ const PRIMARY_BACKGROUND_COLOR = "#c4da3a";//"#3f51b5";
     shadowColor: fullBlack,
 };*/
 
-var indigoPalette = {
+var limePalette = {
     primary1Color: PRIMARY_BACKGROUND_COLOR,
     primary2Color: lime700,
     primary3Color: lime100,
@@ -59,5 +59,5 @@ var indigoPalette = {
 export default {
     spacing: spacing,
     fontFamily: 'Roboto, \'Helvetica Neue\', sans-serif',
-    palette: indigoPalette,
+    palette: limePalette,
 };
