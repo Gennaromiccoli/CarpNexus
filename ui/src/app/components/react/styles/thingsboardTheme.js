@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 import { /*blueGrey500, blueGrey700, blueGrey100, orange500,*/
-         grey100, grey500, grey900, grey600, white, grey400, darkBlack, cyan500, fullBlack/*, indigo500*/, indigo700, indigo100, deepOrange500 } from 'material-ui/styles/colors';
+         grey100, grey500, grey900, grey600, white, grey400, darkBlack, cyan500, fullBlack/*, indigo500*/, lime700, lime100, deepOrange500 } from 'material-ui/styles/colors';
 import {fade} from 'material-ui/utils/colorManipulator';
 import spacing from 'material-ui/styles/spacing';
 
-const PRIMARY_BACKGROUND_COLOR = "#305680";//"#3f51b5";
+const PRIMARY_BACKGROUND_COLOR = "#c4da3a";//"#3f51b5";
 
 /*var blueGrayPalette = {
     primary1Color: blueGrey500,
@@ -40,8 +40,8 @@ const PRIMARY_BACKGROUND_COLOR = "#305680";//"#3f51b5";
 
 var indigoPalette = {
     primary1Color: PRIMARY_BACKGROUND_COLOR,
-    primary2Color: indigo700,
-    primary3Color: indigo100,
+    primary2Color: lime700,
+    primary3Color: lime100,
     accent1Color: deepOrange500,
     accent2Color: grey100,
     accent3Color: grey500,
