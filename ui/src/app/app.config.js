@@ -24,9 +24,9 @@ import mdiIconSet from '../svg/mdi.svg';
 
 /* eslint-enable import/no-unresolved, import/default */
 
-const PRIMARY_BACKGROUND_COLOR = "#305680";//#2856b6";//"#3f51b5";
-const SECONDARY_BACKGROUND_COLOR = "#527dad";
-const HUE3_COLOR = "#a7c1de";
+const PRIMARY_BACKGROUND_COLOR = "#c4da3a";//#2856b6";//"#3f51b5";
+const SECONDARY_BACKGROUND_COLOR = "#c4da3a";
+const HUE3_COLOR = "#c4da3a";
 
 /*@ngInject*/
 export default function AppConfig($provide,
@@ -109,7 +109,7 @@ export default function AppConfig($provide,
     }
 
     function indigoTheme() {
-        var tbPrimaryPalette = $mdThemingProvider.extendPalette('indigo', {
+        var tbPrimaryPalette = $mdThemingProvider.extendPalette('lime', {
             '500': PRIMARY_BACKGROUND_COLOR,
             '600': SECONDARY_BACKGROUND_COLOR,
             'A100': HUE3_COLOR
@@ -144,7 +144,7 @@ export default function AppConfig($provide,
 
     function configureTheme() {
 
-        var theme = 'indigo';
+        var theme = 'lime';
 
         if (theme === 'blueGray') {
             blueGrayTheme();
